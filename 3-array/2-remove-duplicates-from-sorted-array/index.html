@@ -8,13 +8,11 @@
       
       
       
-        <link rel="canonical" href="https://mydomain.org/mysite/1-time-and-space-complexity/time-complexity/">
+        <link rel="canonical" href="https://mydomain.org/mysite/3-array/2-remove-duplicates-from-sorted-array/">
       
       
-        <link rel="prev" href="../..">
+        <link rel="prev" href="../1-second-largest-element-in-array/">
       
-      
-        <link rel="next" href="../../2-sorting/1-selection-sort/">
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
@@ -22,7 +20,7 @@
     
     
       
-        <title>Time Complexity - ds-algo</title>
+        <title>Remove duplicates from sorted array - ds-algo</title>
       
     
     
@@ -64,7 +62,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#time-complexity" class="md-skip">
+        <a href="#remove-duplicates-from-sorted-array" class="md-skip">
           Skip to content
         </a>
       
@@ -100,7 +98,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Time Complexity
+              Remove duplicates from sorted array
             
           </span>
         </div>
@@ -210,19 +208,17 @@
       
   
   
-    
   
   
-  
     
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
         
           
           <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
@@ -236,7 +232,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             1 time and space complexity
@@ -247,19 +243,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../1-time-and-space-complexity/time-complexity/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -268,7 +255,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -432,17 +418,19 @@
       
   
   
+    
   
   
+  
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
         
           
           <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
@@ -456,7 +444,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
             3 array
@@ -470,7 +458,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../3-array/1-second-largest-element-in-array/" class="md-nav__link">
+      <a href="../1-second-largest-element-in-array/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -488,10 +476,30 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../3-array/2-remove-duplicates-from-sorted-array/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Remove duplicates from sorted array
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -500,6 +508,35 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#intuition" class="md-nav__link">
+    <span class="md-ellipsis">
+      Intuition
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -532,6 +569,23 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#intuition" class="md-nav__link">
+    <span class="md-ellipsis">
+      Intuition
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -545,104 +599,28 @@
                   
 
 
-<h1 id="time-complexity"><strong>Time Complexity</strong></h1>
-<hr />
-<p>The time complexity of an algorithm quantifies the amount of time taken by an algorithm to run as a function of the length of the input. Note that the time to run is a function of the length of the input and not the actual execution time of the machine on which the algorithm is running on.</p>
-<h1 id="examples-iterative"><strong>Examples - Iterative</strong></h1>
-<hr />
-<p>Lets go through examples to understand the concepts.</p>
-<h2 id="example-1-on">Example-1 | <strong>O(n)</strong></h2>
-<hr />
-<div class="language-py highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>    <span class="nb">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
-</span></code></pre></div>
-<p>loop will run for 1+1+1+1+1+...n times = n.<br />
-Hence O(n)</p>
-<h2 id="example-2-on2">Example-2 | <strong>O(n^2)</strong></h2>
-<hr />
-<p><div class="language-py highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
-</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>    <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
-</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>        <span class="nb">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
-</span></code></pre></div>
-Outer loop will run for 1+1+1+1+1+...n times = n<br />
-Inner loop will run for 1+1+1+1+1+...n times = n<br />
-As these are nested, total time = n^2<br />
-Hence O(n^2)</p>
-<h2 id="example-3-olog-n">Example-3 | <strong>O(log n)</strong></h2>
-<hr />
-<p><div class="language-py highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="n">index</span><span class="o">=</span><span class="mi">0</span>
-</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="n">size</span> <span class="o">=</span> <span class="mi">129</span>
-</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="k">while</span> <span class="n">index</span> <span class="o">&lt;</span> <span class="n">size</span><span class="p">:</span>
-</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a>    <span class="nb">print</span><span class="p">(</span><span class="n">index</span><span class="p">)</span>
-</span><span id="__span-2-5"><a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a>    <span class="n">index</span> <span class="o">*=</span> <span class="mi">2</span>
-</span></code></pre></div>
-loop will run for 1<em>2</em>2<em>2</em>2*...k times = 2^k
-Complexity should be k then<br />
-Loop will stop when 2^k &gt;=n<br />
-Hence, we can calculate k<br />
-2^k=n<br />
-k=log n<br />
-Hence O(log n)</p>
-<h1 id="examples-recursive"><strong>Examples - Recursive</strong></h1>
-<hr />
-<h2 id="example-1-fibonacci">Example-1 | <strong>Fibonacci</strong></h2>
-<p><div class="language-text highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>T(n)=k+T(n-1)  
-</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>T(n-1)=k+T(n-2)  
-</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>.  
-</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a>.  
-</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a>.  
-</span><span id="__span-3-6"><a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a>T(1)=k (Base condition)
-</span></code></pre></div>
-Adding everything above, we get <br />
-T(n)=k*n</p>
-<p>Hence, <strong>O(n)</strong></p>
-<h2 id="example-2-binary-search">Example-2 | <strong>Binary search</strong></h2>
-<p><div class="language-text highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>T(n)=k+T(n/2)  
-</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>T(n/2)=k+T(n/4)  
-</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>.  
-</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a>.  
-</span><span id="__span-4-5"><a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a>.  
-</span><span id="__span-4-6"><a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a>T(1)=k (Base condition)
-</span></code></pre></div>
-Adding everything above, we get <br />
-T(n)=a(number of steps)* k</p>
-<p>Now, a= log n(which is number of steps)
-Hence, T(n) = k*log n</p>
-<p>Hence, <strong>O(log n)</strong></p>
-<h2 id="example-3-merge-sort">Example-3 | <strong>Merge sort</strong></h2>
+<h1 id="remove-duplicates-from-sorted-array">Remove duplicates from sorted array</h1>
+<p><a href="https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/" target="_blank">Problem link - Leetcode</a></p>
+<h2 id="intuition">Intuition</h2>
 <ul>
-<li>Break into 2 arrays, left and right</li>
-<li>Sort using recursion</li>
-<li>Merge into a new array (O(kn))</li>
-<li>Copy new array content to original array (O(kn))</li>
+<li>initialize largest1 and largest2</li>
+<li>Loop through array</li>
+<li>if you get an element greater than largest1, make largest2 = largest 1 now, and largest1 = arr[i]</li>
+<li>else, if element is greater than largest2, make largest2=arr[i]</li>
 </ul>
-<p><div class="language-text highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>T(n)=k+T(n/2)+T(n/2)+kn+kn  
-</span><span id="__span-5-2"><a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a>T(n)=2T(n/2)+kn  
-</span><span id="__span-5-3"><a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a>
-</span><span id="__span-5-4"><a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a>2T(n/2)=4T(n/4)+kn (multiplied both side by 2)  
-</span><span id="__span-5-5"><a id="__codelineno-5-5" name="__codelineno-5-5" href="#__codelineno-5-5"></a>.  
-</span><span id="__span-5-6"><a id="__codelineno-5-6" name="__codelineno-5-6" href="#__codelineno-5-6"></a>.  
-</span><span id="__span-5-7"><a id="__codelineno-5-7" name="__codelineno-5-7" href="#__codelineno-5-7"></a>.  
-</span><span id="__span-5-8"><a id="__codelineno-5-8" name="__codelineno-5-8" href="#__codelineno-5-8"></a>T(1)=k (Base condition)
+<div class="language-py highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="k">class</span> <span class="nc">Solution</span><span class="p">:</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>    <span class="k">def</span> <span class="nf">print2largest</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">arr</span><span class="p">,</span> <span class="n">n</span><span class="p">):</span>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>        <span class="c1"># code here</span>
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>        <span class="n">largest1</span><span class="o">=</span><span class="n">arr</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>        <span class="n">largest2</span><span class="o">=-</span><span class="mi">1</span>
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="n">n</span><span class="p">):</span>
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>            <span class="k">if</span> <span class="n">arr</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">&gt;</span><span class="n">largest1</span><span class="p">:</span>
+</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>                <span class="n">largest2</span><span class="o">=</span><span class="n">largest1</span>
+</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>                <span class="n">largest1</span><span class="o">=</span><span class="n">arr</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>            <span class="k">elif</span> <span class="n">arr</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">&lt;</span><span class="n">largest1</span> <span class="ow">and</span> <span class="n">arr</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">&gt;</span><span class="n">largest2</span><span class="p">:</span>
+</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>                <span class="n">largest2</span><span class="o">=</span><span class="n">arr</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>        <span class="k">return</span> <span class="n">largest2</span>
 </span></code></pre></div>
-Adding everything above, we get <br />
-T(n)=a(number of steps)* nk</p>
-<p>Now, a= log n(which is number of steps)
-Hence, T(n) = nk*log n</p>
-<p>Hence, <strong>O(nlog n)</strong></p>
-<h2 id="example-4-fibonacci">Example-4 | <strong>Fibonacci</strong></h2>
-<p><div class="language-text highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>T(n)=T(n-1)+T(n-2)
-</span><span id="__span-6-2"><a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a>
-</span><span id="__span-6-3"><a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a>Forms a binary tree with n levels
-</span><span id="__span-6-4"><a id="__codelineno-6-4" name="__codelineno-6-4" href="#__codelineno-6-4"></a>
-</span><span id="__span-6-5"><a id="__codelineno-6-5" name="__codelineno-6-5" href="#__codelineno-6-5"></a>Total nodes = 1+2^1+2^2+2^3+...2^n  
-</span><span id="__span-6-6"><a id="__codelineno-6-6" name="__codelineno-6-6" href="#__codelineno-6-6"></a>Each node = k operation  
-</span><span id="__span-6-7"><a id="__codelineno-6-7" name="__codelineno-6-7" href="#__codelineno-6-7"></a>
-</span><span id="__span-6-8"><a id="__codelineno-6-8" name="__codelineno-6-8" href="#__codelineno-6-8"></a>T.C = k*Total nodes  
-</span><span id="__span-6-9"><a id="__codelineno-6-9" name="__codelineno-6-9" href="#__codelineno-6-9"></a>    = k*((2^n+1)-1) [Formula]  
-</span><span id="__span-6-10"><a id="__codelineno-6-10" name="__codelineno-6-10" href="#__codelineno-6-10"></a>    =k*2^n [approx]  
-</span></code></pre></div>
-Hence, <strong>O(2^n)</strong></p>
 
 
 

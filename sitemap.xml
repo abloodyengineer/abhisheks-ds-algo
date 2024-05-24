@@ -35,4 +35,14 @@
          <lastmod>2024-05-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
+    <url>
+         <loc>https://mydomain.org/mysite/3-array/1-second-largest-element-in-array/</loc>
+         <lastmod>2024-05-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://mydomain.org/mysite/3-array/2-remove-duplicates-from-sorted-array/</loc>
+         <lastmod>2024-05-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
 </urlset>

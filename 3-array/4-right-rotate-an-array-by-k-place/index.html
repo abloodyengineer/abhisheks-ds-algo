@@ -8,13 +8,13 @@
       
       
       
-        <link rel="canonical" href="https://mydomain.org/mysite/2-sorting/1-selection-sort/">
+        <link rel="canonical" href="https://mydomain.org/mysite/3-array/4-right-rotate-an-array-by-k-place/">
       
       
-        <link rel="prev" href="../../1-time-and-space-complexity/time-complexity/">
+        <link rel="prev" href="../3-left-rotate-an-array-by-1-place/">
       
       
-        <link rel="next" href="../2-bubble-sort/">
+        <link rel="next" href="../5-move-zeroes-to-end/">
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
@@ -22,7 +22,7 @@
     
     
       
-        <title>Selection Sort - ds-algo</title>
+        <title>Left rotate an array by k places - ds-algo</title>
       
     
     
@@ -64,7 +64,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#selection-sort" class="md-skip">
+        <a href="#left-rotate-an-array-by-k-places" class="md-skip">
           Skip to content
         </a>
       
@@ -100,7 +100,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Selection Sort
+              Left rotate an array by k places
             
           </span>
         </div>
@@ -273,19 +273,17 @@
       
   
   
-    
   
   
-  
     
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
         
           
           <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
@@ -299,7 +297,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             2 sorting
@@ -310,30 +308,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    Selection Sort
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../2-sorting/1-selection-sort/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -342,71 +320,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#intuition" class="md-nav__link">
-    <span class="md-ellipsis">
-      Intuition
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#code" class="md-nav__link">
-    <span class="md-ellipsis">
-      Code
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#time-complexity" class="md-nav__link">
-    <span class="md-ellipsis">
-      Time complexity
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#space-complexity" class="md-nav__link">
-    <span class="md-ellipsis">
-      Space Complexity
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#study-further" class="md-nav__link">
-    <span class="md-ellipsis">
-      Study Further
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -419,7 +332,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../2-bubble-sort/" class="md-nav__link">
+      <a href="../../2-sorting/2-bubble-sort/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -440,7 +353,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../3-insertion-sort/" class="md-nav__link">
+      <a href="../../2-sorting/3-insertion-sort/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -461,7 +374,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../4-merge-sort/" class="md-nav__link">
+      <a href="../../2-sorting/4-merge-sort/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -482,7 +395,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../5-quick-sort/" class="md-nav__link">
+      <a href="../../2-sorting/5-quick-sort/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -507,17 +420,19 @@
       
   
   
+    
   
   
+  
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
         
           
           <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
@@ -531,7 +446,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
             3 array
@@ -545,7 +460,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../3-array/1-second-largest-element-in-array/" class="md-nav__link">
+      <a href="../1-second-largest-element-in-array/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -566,7 +481,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../3-array/2-remove-duplicates-from-sorted-array/" class="md-nav__link">
+      <a href="../2-remove-duplicates-from-sorted-array/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -587,7 +502,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../3-array/3-left-rotate-an-array-by-1-place/" class="md-nav__link">
+      <a href="../3-left-rotate-an-array-by-1-place/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -605,10 +520,30 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../3-array/4-right-rotate-an-array-by-k-place/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Left rotate an array by k places
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -617,6 +552,44 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#intuition-1-using-temp-array" class="md-nav__link">
+    <span class="md-ellipsis">
+      Intuition 1 - using temp array
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#intuition-2-using-reversing-technique" class="md-nav__link">
+    <span class="md-ellipsis">
+      Intuition 2 - using reversing technique
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -629,7 +602,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../3-array/5-move-zeroes-to-end/" class="md-nav__link">
+      <a href="../5-move-zeroes-to-end/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -650,7 +623,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../3-array/6-find-missing-number/" class="md-nav__link">
+      <a href="../6-find-missing-number/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -671,7 +644,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../3-array/longest-sub-array-with-sum-k/" class="md-nav__link">
+      <a href="../longest-sub-array-with-sum-k/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -719,45 +692,18 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#intuition" class="md-nav__link">
+  <a href="#intuition-1-using-temp-array" class="md-nav__link">
     <span class="md-ellipsis">
-      Intuition
+      Intuition 1 - using temp array
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#code" class="md-nav__link">
+  <a href="#intuition-2-using-reversing-technique" class="md-nav__link">
     <span class="md-ellipsis">
-      Code
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#time-complexity" class="md-nav__link">
-    <span class="md-ellipsis">
-      Time complexity
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#space-complexity" class="md-nav__link">
-    <span class="md-ellipsis">
-      Space Complexity
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#study-further" class="md-nav__link">
-    <span class="md-ellipsis">
-      Study Further
+      Intuition 2 - using reversing technique
     </span>
   </a>
   
@@ -778,42 +724,62 @@
                   
 
 
-<h1 id="selection-sort">Selection Sort</h1>
-<h2 id="intuition">Intuition</h2>
+<h1 id="left-rotate-an-array-by-k-places">Left rotate an array by k places</h1>
+<p><a href="https://leetcode.com/problems/rotate-array/description/" target="_blank">Problem link - Leetcode</a></p>
+<h2 id="intuition-1-using-temp-array">Intuition 1 - using temp array</h2>
+<blockquote>
+<p>Time complexity - O(n+d)</p>
+<p>Space complexity - O(N)</p>
+</blockquote>
 <ul>
-<li>Move minimum to front</li>
-<li>Loop through the list n times</li>
-<li>In each loop, take the i-th element as temp mini</li>
-<li>find the minimum in the array from i to n</li>
-<li>swap mini with i-th element</li>
-<li>continue by increasing i in each step</li>
+<li>store last k elements in a temp array</li>
+<li>loop through array from end to k</li>
+<li>move elements from 0 to n-k to end</li>
+<li>fill up starting k places with elements from temp</li>
 </ul>
-<h2 id="code">Code</h2>
 <div class="language-py highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="k">class</span> <span class="nc">Solution</span><span class="p">:</span>
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>    <span class="c1"># Selection sort- move min to front - O(n^2) - TLE</span>
-</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>    <span class="k">def</span> <span class="nf">sortArray</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">nums</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">int</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="nb">int</span><span class="p">]:</span>
-</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>        <span class="n">n</span><span class="o">=</span><span class="nb">len</span><span class="p">(</span><span class="n">nums</span><span class="p">)</span>
-</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="o">-</span><span class="mi">1</span><span class="p">):</span>
-</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>            <span class="n">mini</span><span class="o">=</span><span class="n">i</span>
-</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>            <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">i</span><span class="p">,</span><span class="n">n</span><span class="p">):</span>
-</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>                <span class="k">if</span> <span class="n">nums</span><span class="p">[</span><span class="n">j</span><span class="p">]</span><span class="o">&lt;</span><span class="n">nums</span><span class="p">[</span><span class="n">mini</span><span class="p">]:</span>
-</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>                    <span class="n">mini</span><span class="o">=</span><span class="n">j</span>
-</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>            <span class="bp">self</span><span class="o">.</span><span class="n">swap</span><span class="p">(</span><span class="n">i</span><span class="p">,</span><span class="n">mini</span><span class="p">,</span> <span class="n">nums</span><span class="p">)</span>
-</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>        <span class="k">return</span> <span class="n">nums</span>
-</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>
-</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a>    <span class="k">def</span> <span class="nf">swap</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">first</span><span class="p">,</span> <span class="n">second</span><span class="p">,</span> <span class="n">nums</span><span class="p">):</span>
-</span><span id="__span-0-14"><a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a>        <span class="n">temp</span><span class="o">=</span><span class="n">nums</span><span class="p">[</span><span class="n">first</span><span class="p">]</span>
-</span><span id="__span-0-15"><a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a>        <span class="n">nums</span><span class="p">[</span><span class="n">first</span><span class="p">]</span><span class="o">=</span><span class="n">nums</span><span class="p">[</span><span class="n">second</span><span class="p">]</span>
-</span><span id="__span-0-16"><a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a>        <span class="n">nums</span><span class="p">[</span><span class="n">second</span><span class="p">]</span><span class="o">=</span><span class="n">temp</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>    <span class="c1"># Time -O(n+d) Extra Space - O(N)</span>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>    <span class="k">def</span> <span class="nf">rotate</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">nums</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">int</span><span class="p">],</span> <span class="n">k</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="sd">        Do not return anything, modify nums in-place instead.</span>
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="sd">        &quot;&quot;&quot;</span>
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>        <span class="n">n</span><span class="o">=</span><span class="nb">len</span><span class="p">(</span><span class="n">nums</span><span class="p">)</span>
+</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>        <span class="n">new_k</span><span class="o">=</span><span class="n">k</span><span class="o">%</span><span class="n">n</span>
+</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>        <span class="n">temp</span><span class="o">=</span><span class="n">nums</span><span class="p">[</span><span class="n">n</span><span class="o">-</span><span class="n">new_k</span><span class="p">:</span><span class="n">n</span><span class="p">]</span>
+</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span><span class="n">new_k</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span><span class="o">-</span><span class="mi">1</span><span class="p">):</span>
+</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>            <span class="n">nums</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">=</span><span class="n">nums</span><span class="p">[</span><span class="n">i</span><span class="o">-</span><span class="n">new_k</span><span class="p">]</span>
+</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">temp</span><span class="p">)):</span>
+</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a>            <span class="n">nums</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">=</span><span class="n">temp</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
 </span></code></pre></div>
-<h2 id="time-complexity">Time complexity</h2>
-<p><strong>O(N^2)</strong></p>
-<h2 id="space-complexity">Space Complexity</h2>
-<p><strong>O(1)</strong></p>
-<h2 id="study-further">Study Further</h2>
+<h2 id="intuition-2-using-reversing-technique">Intuition 2 - using reversing technique</h2>
+<blockquote>
+<p>Time complexity - O(n)</p>
+<p>Space complexity - O(1)</p>
+</blockquote>
 <ul>
-<li><a href="https://www.geeksforgeeks.org/selection-sort/" target="_blank">Geek For Geeks</a></li>
+<li>Reverse 0 to n-k</li>
+<li>Reverse n-k to end</li>
+<li>Reverse 0 to end</li>
 </ul>
+<div class="language-py highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="k">class</span> <span class="nc">Solution</span><span class="p">:</span>
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>    <span class="c1"># time - O(N) extra space - O(1) </span>
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>    <span class="k">def</span> <span class="nf">rotate</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">nums</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">int</span><span class="p">],</span> <span class="n">k</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
+</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="sd">        Do not return anything, modify nums in-place instead.</span>
+</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="sd">        &quot;&quot;&quot;</span>
+</span><span id="__span-1-7"><a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a>        <span class="n">n</span><span class="o">=</span><span class="nb">len</span><span class="p">(</span><span class="n">nums</span><span class="p">)</span>
+</span><span id="__span-1-8"><a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a>        <span class="n">new_k</span><span class="o">=</span><span class="n">k</span><span class="o">%</span><span class="n">n</span>
+</span><span id="__span-1-9"><a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a>        <span class="bp">self</span><span class="o">.</span><span class="n">reverse</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">n</span><span class="o">-</span><span class="n">new_k</span><span class="p">,</span> <span class="n">nums</span><span class="p">)</span>
+</span><span id="__span-1-10"><a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a>        <span class="bp">self</span><span class="o">.</span><span class="n">reverse</span><span class="p">(</span><span class="n">n</span><span class="o">-</span><span class="n">new_k</span><span class="p">,</span> <span class="n">n</span><span class="p">,</span> <span class="n">nums</span><span class="p">)</span>
+</span><span id="__span-1-11"><a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a>        <span class="bp">self</span><span class="o">.</span><span class="n">reverse</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="n">n</span><span class="p">,</span><span class="n">nums</span><span class="p">)</span>
+</span><span id="__span-1-12"><a id="__codelineno-1-12" name="__codelineno-1-12" href="#__codelineno-1-12"></a>    <span class="k">def</span> <span class="nf">reverse</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">left</span><span class="p">,</span> <span class="n">right</span><span class="p">,</span><span class="n">nums</span><span class="p">):</span>
+</span><span id="__span-1-13"><a id="__codelineno-1-13" name="__codelineno-1-13" href="#__codelineno-1-13"></a>        <span class="k">while</span> <span class="n">left</span><span class="o">&lt;</span><span class="n">right</span><span class="o">-</span><span class="mi">1</span><span class="p">:</span>
+</span><span id="__span-1-14"><a id="__codelineno-1-14" name="__codelineno-1-14" href="#__codelineno-1-14"></a>            <span class="n">temp</span><span class="o">=</span><span class="n">nums</span><span class="p">[</span><span class="n">left</span><span class="p">]</span>
+</span><span id="__span-1-15"><a id="__codelineno-1-15" name="__codelineno-1-15" href="#__codelineno-1-15"></a>            <span class="n">nums</span><span class="p">[</span><span class="n">left</span><span class="p">]</span><span class="o">=</span><span class="n">nums</span><span class="p">[</span><span class="n">right</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+</span><span id="__span-1-16"><a id="__codelineno-1-16" name="__codelineno-1-16" href="#__codelineno-1-16"></a>            <span class="n">nums</span><span class="p">[</span><span class="n">right</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span><span class="o">=</span><span class="n">temp</span>
+</span><span id="__span-1-17"><a id="__codelineno-1-17" name="__codelineno-1-17" href="#__codelineno-1-17"></a>            <span class="n">left</span><span class="o">+=</span><span class="mi">1</span>
+</span><span id="__span-1-18"><a id="__codelineno-1-18" name="__codelineno-1-18" href="#__codelineno-1-18"></a>            <span class="n">right</span><span class="o">-=</span><span class="mi">1</span>
+</span></code></pre></div>
 
 
 

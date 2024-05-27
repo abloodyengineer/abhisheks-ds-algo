@@ -3,24 +3,45 @@
 [Problem link - Leetcode](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/){:target="_blank"}
 
 
-## Intuition
+## Intuition - Brute force - using set
 
-- initialize largest1 and largest2
-- Loop through array
-- if you get an element greater than largest1, make largest2 = largest 1 now, and largest1 = arr[i]
-- else, if element is greater than largest2, make largest2=arr[i]
+> Time complexity - O(nlogn)
+
+> Space complexity - O(n) for set
+
+- store nums in a set and sort it. make sure tor assign this to nums
+- return the length of nums, which is now a set
 
 ```py
 class Solution:
-	def print2largest(self,arr, n):
-		# code here
-		largest1=arr[0]
-	    largest2=-1
-	    for i in range(1,n):
-            if arr[i]>largest1:
-                largest2=largest1
-                largest1=arr[i]
-            elif arr[i]<largest1 and arr[i]>largest2:
-                largest2=arr[i]
-	    return largest2
+    def removeDuplicates(self, nums: List[int]) -> int:
+        nums[:]=sorted(set(nums))
+        return len(nums)
+```
+
+## Intuition - Optimal force - using two pointers
+
+> Time complexity - O(n)
+
+> Space complexity - O(1)
+
+- take left = 0, right = 0
+- loop right from 0 to n
+- if nums[right] is not equal to nums[left], assign nums[right] nums[left+1] and increment left by 1. This means, when we fin a new element, we place it next to first occurence of old element
+- length of unique elements will be left+1
+
+```py
+class Solution:
+	# Optimal approach - 2 pointers - time - O(n) - space - O(1)
+    def removeDuplicates(self, nums: List[int]) -> int:
+        n=len(nums)
+        left=0
+        right=0
+        while right < n:
+            if nums[right] != nums[left]:
+                nums[left+1]=nums[right]
+                left+=1
+            right+=1
+        return left+1
+
 ```

@@ -37,7 +37,7 @@ class Solution:
         return max_len
 ```
 
-## Intuition - Optimal approach using two pointers
+## Intuition - Optimal approach using two pointers, prefix sum
 
 Could not test this as no problem with only positives
 

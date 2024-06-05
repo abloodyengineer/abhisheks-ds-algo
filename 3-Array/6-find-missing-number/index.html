@@ -8,23 +8,25 @@
       
       
       
-        <link rel="canonical" href="https://mydomain.org/mysite/">
+        <link rel="canonical" href="https://mydomain.org/mysite/3-Array/6-find-missing-number/">
       
       
+        <link rel="prev" href="../5-move-zeroes-to-end/">
       
-        <link rel="next" href="1-Time-and-space-complexity/time-complexity/">
+      
+        <link rel="next" href="../longest-sub-array-with-sum-k/">
       
       
-      <link rel="icon" href="assets/images/favicon.png">
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.24">
     
     
       
-        <title>ds-algo</title>
+        <title>Move zeroes to end - ds-algo</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.6543a935.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.6543a935.min.css">
       
       
 
@@ -43,7 +45,7 @@
       
     
     
-    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -62,7 +64,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#another-ds-algorithm-codebase" class="md-skip">
+        <a href="#move-zeroes-to-end" class="md-skip">
           Skip to content
         </a>
       
@@ -78,7 +80,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="." title="ds-algo" class="md-header__button md-logo" aria-label="ds-algo" data-md-component="logo">
+    <a href="../.." title="ds-algo" class="md-header__button md-logo" aria-label="ds-algo" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -98,7 +100,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Another DS Algorithm Codebase
+              Move zeroes to end
             
           </span>
         </div>
@@ -173,7 +175,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="ds-algo" class="md-nav__button md-logo" aria-label="ds-algo" data-md-component="logo">
+    <a href="../.." title="ds-algo" class="md-nav__button md-logo" aria-label="ds-algo" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -188,19 +190,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="." class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -209,7 +202,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -256,7 +248,7 @@
   
   
     <li class="md-nav__item">
-      <a href="1-Time-and-space-complexity/time-complexity/" class="md-nav__link">
+      <a href="../../1-Time-and-space-complexity/time-complexity/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -319,7 +311,7 @@
   
   
     <li class="md-nav__item">
-      <a href="2-Sorting/1-selection-sort/" class="md-nav__link">
+      <a href="../../2-Sorting/1-selection-sort/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -340,7 +332,7 @@
   
   
     <li class="md-nav__item">
-      <a href="2-Sorting/2-bubble-sort/" class="md-nav__link">
+      <a href="../../2-Sorting/2-bubble-sort/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -361,7 +353,7 @@
   
   
     <li class="md-nav__item">
-      <a href="2-Sorting/3-insertion-sort/" class="md-nav__link">
+      <a href="../../2-Sorting/3-insertion-sort/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -382,7 +374,7 @@
   
   
     <li class="md-nav__item">
-      <a href="2-Sorting/4-merge-sort/" class="md-nav__link">
+      <a href="../../2-Sorting/4-merge-sort/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -403,7 +395,7 @@
   
   
     <li class="md-nav__item">
-      <a href="2-Sorting/5-quick-sort/" class="md-nav__link">
+      <a href="../../2-Sorting/5-quick-sort/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -428,17 +420,19 @@
       
   
   
+    
   
   
+  
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
         
           
           <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
@@ -452,7 +446,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
             3 Array
@@ -466,7 +460,7 @@
   
   
     <li class="md-nav__item">
-      <a href="3-Array/1-second-largest-element-in-array/" class="md-nav__link">
+      <a href="../1-second-largest-element-in-array/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -487,7 +481,7 @@
   
   
     <li class="md-nav__item">
-      <a href="3-Array/2-remove-duplicates-from-sorted-array/" class="md-nav__link">
+      <a href="../2-remove-duplicates-from-sorted-array/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -508,7 +502,7 @@
   
   
     <li class="md-nav__item">
-      <a href="3-Array/3-left-rotate-an-array-by-1-place/" class="md-nav__link">
+      <a href="../3-left-rotate-an-array-by-1-place/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -529,7 +523,7 @@
   
   
     <li class="md-nav__item">
-      <a href="3-Array/4-right-rotate-an-array-by-k-place/" class="md-nav__link">
+      <a href="../4-right-rotate-an-array-by-k-place/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -550,7 +544,7 @@
   
   
     <li class="md-nav__item">
-      <a href="3-Array/5-move-zeroes-to-end/" class="md-nav__link">
+      <a href="../5-move-zeroes-to-end/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -568,10 +562,30 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="3-Array/6-find-missing-number/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Move zeroes to end
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -580,6 +594,53 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#intuition-1-good-solution" class="md-nav__link">
+    <span class="md-ellipsis">
+      Intuition 1 - Good solution
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#intuition-2-optimal-solution-1-sum" class="md-nav__link">
+    <span class="md-ellipsis">
+      Intuition 2 - Optimal solution 1 - sum
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#intuition-3-optimal-solution-2-xor" class="md-nav__link">
+    <span class="md-ellipsis">
+      Intuition 3 - Optimal solution 2 - xor
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -592,7 +653,7 @@
   
   
     <li class="md-nav__item">
-      <a href="3-Array/longest-sub-array-with-sum-k/" class="md-nav__link">
+      <a href="../longest-sub-array-with-sum-k/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -655,7 +716,7 @@
   
   
     <li class="md-nav__item">
-      <a href="4-Binary-search/1-binary-search/" class="md-nav__link">
+      <a href="../../4-Binary-search/1-binary-search/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -718,7 +779,7 @@
   
   
     <li class="md-nav__item">
-      <a href="5-Recursion/1-subsets-1/" class="md-nav__link">
+      <a href="../../5-Recursion/1-subsets-1/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -739,7 +800,7 @@
   
   
     <li class="md-nav__item">
-      <a href="5-Recursion/2-subsets-2/" class="md-nav__link">
+      <a href="../../5-Recursion/2-subsets-2/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -760,7 +821,7 @@
   
   
     <li class="md-nav__item">
-      <a href="5-Recursion/3-permutations/" class="md-nav__link">
+      <a href="../../5-Recursion/3-permutations/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -801,6 +862,41 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#intuition-1-good-solution" class="md-nav__link">
+    <span class="md-ellipsis">
+      Intuition 1 - Good solution
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#intuition-2-optimal-solution-1-sum" class="md-nav__link">
+    <span class="md-ellipsis">
+      Intuition 2 - Optimal solution 1 - sum
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#intuition-3-optimal-solution-2-xor" class="md-nav__link">
+    <span class="md-ellipsis">
+      Intuition 3 - Optimal solution 2 - xor
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -814,9 +910,48 @@
                   
 
 
-<h1 id="another-ds-algorithm-codebase"><strong>Another DS Algorithm Codebase</strong></h1>
-<p><a href="https://www.figma.com/board/7T8ZeiPOctUn6nSYxDbK6r/Data-Structures-and-Algorithms?node-id=0-1&amp;t=DTEhKKTL8xbLxYOx-0" target="_blank">Mind-map</a> (in progress...)</p>
-<p><a href="https://leetcodethehardway.com/" target="_blank">Leetcode-the-hard-way</a></p>
+<h1 id="move-zeroes-to-end">Move zeroes to end</h1>
+<p><a href="https://leetcode.com/problems/move-zeroes/description/" target="_blank">Problem link - Leetcode</a></p>
+<h2 id="intuition-1-good-solution">Intuition 1 - Good solution</h2>
+<blockquote>
+<p>Time complexity - O(2n)</p>
+<p>Space complexity - O(n)</p>
+</blockquote>
+<ul>
+<li>initialize a temp array with all 0s</li>
+<li>loop through the nums array, and mark the indexes corresponding to the elements with 1, i.e, if 2 is present in nums, mark arr[2]=1 and so on</li>
+<li>loop through temp array. whichever index is marked 0 is the missing number</li>
+</ul>
+<div class="language-py highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="k">class</span> <span class="nc">Solution</span><span class="p">:</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>    <span class="k">def</span> <span class="nf">missingNumber</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">nums</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">int</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>        <span class="n">n</span><span class="o">=</span><span class="nb">len</span><span class="p">(</span><span class="n">nums</span><span class="p">)</span>
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>        <span class="n">arr</span><span class="o">=</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">*</span><span class="p">(</span><span class="n">n</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span>
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>            <span class="n">arr</span><span class="p">[</span><span class="n">nums</span><span class="p">[</span><span class="n">i</span><span class="p">]]</span><span class="o">=</span><span class="mi">1</span>
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="o">+</span><span class="mi">1</span><span class="p">):</span>
+</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>            <span class="k">if</span> <span class="n">arr</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">==</span><span class="mi">0</span><span class="p">:</span>
+</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>                <span class="k">return</span> <span class="n">i</span>
+</span></code></pre></div>
+<h2 id="intuition-2-optimal-solution-1-sum">Intuition 2 - Optimal solution 1 - sum</h2>
+<blockquote>
+<p>Time complexity - O(n)</p>
+<p>Space complexity - O(1)</p>
+</blockquote>
+<ul>
+<li>Find sum on first n natural numbers</li>
+<li>find sum of given nums array</li>
+<li>the difference is the missing number</li>
+</ul>
+<div class="language-py highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="k">class</span> <span class="nc">Solution</span><span class="p">:</span>
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>    <span class="k">def</span> <span class="nf">missingNumber</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">nums</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">int</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>        <span class="n">n</span><span class="o">=</span><span class="nb">len</span><span class="p">(</span><span class="n">nums</span><span class="p">)</span>
+</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>        <span class="n">nsum</span><span class="o">=</span><span class="nb">sum</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="o">+</span><span class="mi">1</span><span class="p">))</span>
+</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a>        <span class="n">actual_sum</span><span class="o">=</span><span class="nb">sum</span><span class="p">(</span><span class="n">nums</span><span class="p">)</span>
+</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a>        <span class="k">return</span> <span class="n">nsum</span><span class="o">-</span><span class="n">actual_sum</span>
+</span></code></pre></div>
+<h2 id="intuition-3-optimal-solution-2-xor">Intuition 3 - Optimal solution 2 - xor</h2>
+<p>This can be solved using xor as well. Hint - Xor with first n natural numbers. the answer is the missing number because <strong>a^a=0</strong></p>
+<p>so every number cancels out except the missing number</p>
 
 
 
@@ -863,10 +998,10 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": ".", "features": [], "search": "assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="assets/javascripts/bundle.081f42fc.min.js"></script>
+      <script src="../../assets/javascripts/bundle.081f42fc.min.js"></script>
       
     
   </body>

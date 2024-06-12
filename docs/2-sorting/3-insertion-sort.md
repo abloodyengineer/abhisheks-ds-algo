@@ -4,7 +4,7 @@
 - Move minimum to front by adjacent swaps
 - Loop i from beginning to end of list
 - Loop j from i to 0
-- swap j with j-1 if j<j-1>, that is, moving the min to beginning
+- swap j with j-1 if nums[j]< nums[j-1], that is, moving the min to beginning
 - after i goes from 0 to n, the array will be sorted
 
 ## Code

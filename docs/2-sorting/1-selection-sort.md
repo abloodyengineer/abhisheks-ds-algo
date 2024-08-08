@@ -30,7 +30,7 @@ class Solution:
 
 ## Time complexity 
 
-**O(N^2)**
+**O(nlogn)**
 
 ## Space Complexity
 

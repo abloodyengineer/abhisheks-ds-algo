@@ -2,92 +2,202 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://mydomain.org/mysite/</loc>
-         <lastmod>2024-06-12</lastmod>
+         <lastmod>2024-08-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://mydomain.org/mysite/1-Time-and-space-complexity/time-complexity/</loc>
-         <lastmod>2024-06-12</lastmod>
+         <lastmod>2024-08-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://mydomain.org/mysite/2-Sorting/1-selection-sort/</loc>
-         <lastmod>2024-06-12</lastmod>
+         <lastmod>2024-08-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://mydomain.org/mysite/2-Sorting/2-bubble-sort/</loc>
-         <lastmod>2024-06-12</lastmod>
+         <lastmod>2024-08-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://mydomain.org/mysite/2-Sorting/3-insertion-sort/</loc>
-         <lastmod>2024-06-12</lastmod>
+         <lastmod>2024-08-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://mydomain.org/mysite/2-Sorting/4-merge-sort/</loc>
-         <lastmod>2024-06-12</lastmod>
+         <lastmod>2024-08-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://mydomain.org/mysite/2-Sorting/5-quick-sort/</loc>
-         <lastmod>2024-06-12</lastmod>
+         <lastmod>2024-08-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://mydomain.org/mysite/3-Array/1-second-largest-element-in-array/</loc>
-         <lastmod>2024-06-12</lastmod>
+         <lastmod>2024-08-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://mydomain.org/mysite/3-Array/2-remove-duplicates-from-sorted-array/</loc>
-         <lastmod>2024-06-12</lastmod>
+         <lastmod>2024-08-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://mydomain.org/mysite/3-Array/3-left-rotate-an-array-by-1-place/</loc>
-         <lastmod>2024-06-12</lastmod>
+         <lastmod>2024-08-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://mydomain.org/mysite/3-Array/4-right-rotate-an-array-by-k-place/</loc>
-         <lastmod>2024-06-12</lastmod>
+         <lastmod>2024-08-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://mydomain.org/mysite/3-Array/5-move-zeroes-to-end/</loc>
-         <lastmod>2024-06-12</lastmod>
+         <lastmod>2024-08-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://mydomain.org/mysite/3-Array/6-find-missing-number/</loc>
-         <lastmod>2024-06-12</lastmod>
+         <lastmod>2024-08-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://mydomain.org/mysite/3-Array/longest-sub-array-with-sum-k/</loc>
-         <lastmod>2024-06-12</lastmod>
+         <lastmod>2024-08-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://mydomain.org/mysite/4-Binary-search/1-binary-search/</loc>
-         <lastmod>2024-06-12</lastmod>
+         <lastmod>2024-08-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://mydomain.org/mysite/5-Recursion/1-subsets-1/</loc>
-         <lastmod>2024-06-12</lastmod>
+         <lastmod>2024-08-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://mydomain.org/mysite/5-Recursion/2-subsets-2/</loc>
-         <lastmod>2024-06-12</lastmod>
+         <lastmod>2024-08-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://mydomain.org/mysite/5-Recursion/3-permutations/</loc>
-         <lastmod>2024-06-12</lastmod>
+         <lastmod>2024-08-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://mydomain.org/mysite/6-Graph/1-bfs/</loc>
+         <lastmod>2024-08-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://mydomain.org/mysite/6-Graph/2-dfs/</loc>
+         <lastmod>2024-08-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://mydomain.org/mysite/6-Graph/1-Bfs-Dfs/10-bipartite/</loc>
+         <lastmod>2024-08-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://mydomain.org/mysite/6-Graph/1-Bfs-Dfs/3-number-of-provinces/</loc>
+         <lastmod>2024-08-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://mydomain.org/mysite/6-Graph/1-Bfs-Dfs/4-rotting-oranges/</loc>
+         <lastmod>2024-08-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://mydomain.org/mysite/6-Graph/1-Bfs-Dfs/5-flood-fill/</loc>
+         <lastmod>2024-08-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://mydomain.org/mysite/6-Graph/1-Bfs-Dfs/6-cycle-detection/</loc>
+         <lastmod>2024-08-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://mydomain.org/mysite/6-Graph/1-Bfs-Dfs/8-surrounded-regions/</loc>
+         <lastmod>2024-08-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://mydomain.org/mysite/6-Graph/1-Bfs-Dfs/9-number-of-distinct-islands/</loc>
+         <lastmod>2024-08-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://mydomain.org/mysite/6-Graph/2-Cycle-detection/1-undirected-bfs/</loc>
+         <lastmod>2024-08-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://mydomain.org/mysite/6-Graph/2-Cycle-detection/2-undirected-dfs/</loc>
+         <lastmod>2024-08-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://mydomain.org/mysite/6-Graph/2-Cycle-detection/3-directed-dfs/</loc>
+         <lastmod>2024-08-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://mydomain.org/mysite/6-Graph/2-Cycle-detection/4-topo-sort-dfs/</loc>
+         <lastmod>2024-08-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://mydomain.org/mysite/6-Graph/2-Cycle-detection/5-topo-sort-bfs-kahns/</loc>
+         <lastmod>2024-08-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://mydomain.org/mysite/6-Graph/2-Cycle-detection/6-directed-bfs-kahns/</loc>
+         <lastmod>2024-08-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://mydomain.org/mysite/6-Graph/2-Cycle-detection/7-eventual-safe-states-dfs/</loc>
+         <lastmod>2024-08-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://mydomain.org/mysite/6-Graph/2-Cycle-detection/8-eventual-safe-states-topo-kahns/</loc>
+         <lastmod>2024-08-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://mydomain.org/mysite/6-Graph/3-Shortest-path/1-shortest-path-in-dag/</loc>
+         <lastmod>2024-08-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://mydomain.org/mysite/6-Graph/3-Shortest-path/2-dijkstras-min-heap/</loc>
+         <lastmod>2024-08-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://mydomain.org/mysite/6-Graph/3-Shortest-path/3-dijkstras-set/</loc>
+         <lastmod>2024-08-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://mydomain.org/mysite/6-Graph/3-Shortest-path/4-print-shortest-path/</loc>
+         <lastmod>2024-08-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://mydomain.org/mysite/6-Graph/3-Shortest-path/5-bellman-ford/</loc>
+         <lastmod>2024-08-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
